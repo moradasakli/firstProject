@@ -1,16 +1,16 @@
 public class SharedData 
 { //hdjkhsdkjfhskfhkjdhsfkjdshfkjsdhkfjsdkfjsdhk
-	private int [] array;
+	private int [] arrayList;
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
 	
 	public SharedData(int[] array, int b) {
 		
-		this.array = array;
+		this.array = arrayList;
 		this.b = b;
 	}
-
+// hello this is my first git project 
 	public boolean[] getWinArray() 
 	{
 		return winArray;
